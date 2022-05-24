@@ -26,4 +26,5 @@ Il file PHP non contiene la connessione al database, ma si potrebbe implementare
 		echo "connessione riuscita<br>";
   $conn->close();
   ```
-  
+  ## Divisione progetto 
+	Il progetto è diviso in due file: il primo si chiama 
