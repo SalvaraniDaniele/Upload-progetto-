@@ -9,7 +9,7 @@ E' presente una pagina PHP di risposta, perchè una volta che l'utente inserirà
 <input type="submit" value="INVIA DATI">
 ```
 Se vuole eliminare tutti i dati presenti per qualsiasi motivo, premerà invece sul bottone ANNULLA. 
-    ```bash
+ ```bash
 <input type="reset" value="ANNULLA">
 ```
 Il file PHP non contiene la connessione al database, ma si potrebbe implementare, con il seguente codice: 
