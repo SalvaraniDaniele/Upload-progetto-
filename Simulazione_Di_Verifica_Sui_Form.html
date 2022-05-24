@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Modulo Inserimento Dati</title>
+    </head>
+    <style>
+     body
+     {
+     background-color:#ffd700;
+     }
+     
+     h1
+     {
+     font-family:Calibri;
+     }
+     legend
+     {
+     font-family:Calibri;
+     }
+     
+    </style>
+  <body>
+    <h1 Align="center"> MODULO INSERIMENTO DATI </h1>
+    
+	
+	<form action="CaitiRISP.php" method="POST">
+	
+	
+	<fieldset>
+	<legend> Informazioni personali </legend>
+     
+     <table> <tr>
+        <th> COGNOME </th>
+        <td> <input type="text" id="surname" name="surname" placeholder="Rossi"> <br></td>
+        </tr> 
+        <tr>
+        <th align="left"> NOME </th>
+        <td> <input type="text" id="name" name="name" placeholder="Mario"> </td>
+        </tr>
+        <tr>
+        <th align="left"> EMAIL </th>
+        <td> <input type="email" id="giocaiti" name="giocaiti" placeholder="MarioRossi@gmail.com"> </td>
+        </tr>
+      </table>
+	</fieldset>
+	
+	
+	<fieldset>
+	<legend> Informazioni secondarie </legend>
+	
+     <table> 
+     <tr>
+     <th align="left"> NAZIONE </th>
+   <td> <select name="type">
+        <option value="Italia">Italia</option>
+        <option value="Francia">Francia</option>
+        <option value="Germania">Germania</option>
+        <option value="Inghilterra">Inghilterra</option>
+        <option value="America">America</option> </td>
+        </optgroup>
+      <tr>
+      
+      <tr>
+      <th align="left"> DATA DI NASCITA </th>
+      <td> <input type="date" id="data" name="data"> </td>   
+      </tr>
+      
+      <tr>
+      <th align="left"> SESSO </th>
+      <td> <input type="radio" name="sesso" value="maschio" >Maschio </td>
+      <td> <input type="radio" name="sesso" value="femmina" >Femmina </td>
+      </tr>
+      </table>
+  </fieldset>
+  
+  <fieldset>
+  <legend> Certificazioni e Curriculum Vitae</legend>
+  
+    <table>
+    <tr>
+    <th align="left"> CERTIFICAZIONI <br>ACQUISITE </th>
+    <td> 
+      <input type="checkbox" name="ciao" value="accepted"> ECDL 
+  <br>    <input type="checkbox" name="ciao" value="accepted"> FIRST  
+   <br>   <input type="checkbox" name="ciao" value="accepted"> PET 
+    </td>
+    </tr>
+	<tr>
+	<td> <a href="file:///C:/Users/gioca/Desktop/CurriculumVitae.html">Curriculum Vitae</a> </td>
+    </tr>
+	</table>
+    </fieldset>
+    
+    
+              <input type="submit" value="INVIA DATI">
+              <input type="reset" value="ANNULLA">
+  
+      
+	
+	
+	
+	</form>
+	</body>
+	</html>
+	
