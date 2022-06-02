@@ -30,6 +30,6 @@ Il file PHP non contiene la connessione al database, ma si potrebbe implementare
   ## Divisione progetto 
 Il progetto è diviso in due file: il primo (ovvero il file HTML),si chiama Simulazione_Di_Verifica_Sui_Form.html, mentre il secondo (ovvero il file PHP), quindi il file di risposta, si chiama registrazione.php.
 	
-	
+	 
 	
 - Per avviare il progetto, basterà semplicemente aprirlo con Google Chrome, direttamente dalla cartella nella quale abbiamo inserito il file. 
